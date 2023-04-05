@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{266B520C-6D88-E0EB-7A02-BE2FB6176CD0}</ProjectGuid>
+    <ProjectGuid>{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -52,9 +52,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraShake.cs" />
+     <Compile Include="Assets\Scripts\GameManagerBehaviour.cs" />
      <Compile Include="Assets\Scripts\GameOver.cs" />
      <Compile Include="Assets\Scripts\MonsterData.cs" />
+     <Compile Include="Assets\Scripts\MoveEnemy.cs" />
      <Compile Include="Assets\Scripts\PlaceMonster.cs" />
+     <Compile Include="Assets\Scripts\SpawnEnemy.cs" />
      <Compile Include="Assets\Scripts\Tutorial.cs" />
      <None Include="Assets\Font\readme.txt" />
  <Reference Include="UnityEngine.UI">
